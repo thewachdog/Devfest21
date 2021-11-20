@@ -89,7 +89,6 @@ header{
   background:#fff;
   padding:2rem 5%; /* 10% */
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-  
 }
 
 .content{
@@ -274,7 +273,7 @@ a {
   text-decoration: none;
 }
 footer{
-  background: gray;
+  background: linear-gradient(to bottom right, white,#ff1515);
   width: 100%;
 }
 
@@ -285,11 +284,17 @@ footer{
 .footerleft{
   text-align: center;
 }
+.footerleft a{
+  text-decoration: none;
+}
 .footercenter{
   text-align: center;
 }
 .footerright{
   text-align: center;
+}
+.footerright a{
+  text-decoration: none;
 }
 
 .lols h1{
