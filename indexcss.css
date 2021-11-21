@@ -210,6 +210,8 @@ a:hover {
 
 .app{
   padding-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .lols{
@@ -273,16 +275,20 @@ a {
   text-decoration: none;
 }
 footer{
-  background: linear-gradient(to bottom right, white,#ff1515);
+  background: linear-gradient(to bottom right, rgb(233, 233, 233),#ff1515);
   width: 100%;
 }
 
 .headertext{
   font-family: 'Nunito', sans-serif;
+  color: #ff3838;
+}
+.headericons{
+  font-size: 22px;
 }
 
 .footerleft{
-  text-align: center;
+  text-align: left;
 }
 .footerleft a{
   text-decoration: none;
@@ -291,7 +297,7 @@ footer{
   text-align: center;
 }
 .footerright{
-  text-align: center;
+  text-align: right;
 }
 .footerright a{
   text-decoration: none;
@@ -316,5 +322,10 @@ footer{
 @media (min-width:994px) {
   .image{
     margin-top: 10%;
+  }
+}
+@media (max-width: 991px) {
+  .content{
+    margin-top: 180px;
   }
 }
