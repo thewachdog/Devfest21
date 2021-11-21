@@ -288,7 +288,7 @@ footer{
 }
 
 .footerleft{
-  text-align: center;
+  text-align: left;
 }
 .footerleft a{
   text-decoration: none;
@@ -297,7 +297,7 @@ footer{
   text-align: center;
 }
 .footerright{
-  text-align: center;
+  text-align: right;
 }
 .footerright a{
   text-decoration: none;
